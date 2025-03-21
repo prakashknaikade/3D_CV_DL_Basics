@@ -1,0 +1,6 @@
+# ninja log v5
+0	2595	1742392053478251400	/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/build/temp.linux-x86_64-cpython-38/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/src/cpu/ms_deform_attn_cpu.o	81280ab6102e55e9
+1	13926	1742392064801780600	/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/build/temp.linux-x86_64-cpython-38/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/src/vision.o	66a44bed96b660d2
+2	2767	1742397223122735200	/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/build/temp.linux-x86_64-cpython-38/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/src/cpu/ms_deform_attn_cpu.o	7fea9197c469dfb
+3	15096	1742397235442895200	/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/build/temp.linux-x86_64-cpython-38/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/src/vision.o	512dd130d6b03eb5
+3	9877	1742397533978698400	/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/build/temp.linux-x86_64-cpython-38/PKN/study_projects/python_post_proc_slam/RoomFormer/models/ops/src/cuda/ms_deform_attn_cuda.o	ccb74f693c4845ae

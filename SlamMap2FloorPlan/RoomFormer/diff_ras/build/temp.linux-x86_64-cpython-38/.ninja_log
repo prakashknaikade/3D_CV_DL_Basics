@@ -1,0 +1,5 @@
+# ninja log v5
+1	9724	1742397595526998500	/PKN/study_projects/python_post_proc_slam/RoomFormer/diff_ras/build/temp.linux-x86_64-cpython-38/rasterize_cuda_kernel.o	57f5d164c4e9a2c4
+1	18597	1742397604390971000	/PKN/study_projects/python_post_proc_slam/RoomFormer/diff_ras/build/temp.linux-x86_64-cpython-38/rasterize_cuda.o	9559d7420c84d8c4
+3	10007	1742397615202084600	/PKN/study_projects/python_post_proc_slam/RoomFormer/diff_ras/build/temp.linux-x86_64-cpython-38/rasterize_cuda_kernel.o	b339fb7e501564ac
+3	18363	1742397623551160400	/PKN/study_projects/python_post_proc_slam/RoomFormer/diff_ras/build/temp.linux-x86_64-cpython-38/rasterize_cuda.o	5d5249af2d60f952
