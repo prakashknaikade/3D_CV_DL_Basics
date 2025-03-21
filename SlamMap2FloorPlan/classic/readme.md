@@ -104,4 +104,4 @@ However, the model does not generalize well to unseen data, such as our SLAM-gen
 
 This poor performance is expected due to the domain gap. The original model was trained on density images derived from 3D point cloud data, whereas I used a binarized version of our SLAM map. However, I believe that training the model with well-prepared, domain-specific data could yield significantly better results.
 
-Check out the [RoomFormer](../RoomFormer/) and some [outputs](../RoomFormer/solutions) for our slmap maps data.
+Check out the [RoomFormer](../RoomFormer/) and some [outputs](../RoomFormer/solution) for our slmap maps data.
