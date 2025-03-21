@@ -88,19 +88,16 @@ I first applied the Canny edge detector to identify wall edges and then used the
 
 To improve the representation, I experimented with line merging and corner detection, aiming for a cleaner output, but the results were still unsatisfactory. I also fine-tuned multiple parameters, such as threshold values, minimum line length, gap tolerance, and kernel shapes in morphological operations. While these adjustments helped reconstruct wall lines that aligned better with the ground truth, the results were still not optimal, as shown in the following image:
 
-<img src="output_floorplans/room1_floor_plan_gt.png" alt="Floor Plan" width="300"/>
-<img src="output_floorplans/room1_floor_plan.png" alt="Floor Plan" width="300"/>
+<img src="output_floorplans/room1_floor_plan_gt.png" alt="Floor Plan" width="300"/> <img src="output_floorplans/room1_floor_plan.png" alt="Floor Plan" width="300"/>
 
 
 To overcome these limitations, I explored data-driven learning-based approaches like RoomFormer, which excels at corner detection for floor plan generation from 3D point cloud data. I created a standalone inference script, [inference.py](../RoomFormer/inference.py), to test the model. The pretrained model performs well on its original dataset, as demonstrated in the following images:
 
-<img src="../RoomFormer/solution/03250_pred_floorplan.png" alt="Floor Plan" width="300"/>
-<img src="../RoomFormer/solution/03250_pred_room_map.png" alt="Floor Plan" width="300"/>
+<img src="../RoomFormer/solution/03250_pred_floorplan.png" alt="Floor Plan" width="300"/> <img src="../RoomFormer/solution/03250_pred_room_map.png" alt="Floor Plan" width="300"/>
 
 However, the model does not generalize well to unseen data, such as our SLAM-generated maps, as shown below:
 
-<img src="../RoomFormer/solution/room2_pred_room_map.png" alt="Floor Plan" width="300"/>
-<img src="../RoomFormer/solution/room3_pred_room_map.png" alt="Floor Plan" width="300"/>
+<img src="../RoomFormer/solution/room2_pred_room_map.png" alt="Floor Plan" width="300"/> <img src="../RoomFormer/solution/room3_pred_room_map.png" alt="Floor Plan" width="300"/>
 
 This poor performance is expected due to the domain gap. The original model was trained on density images derived from 3D point cloud data, whereas I used a binarized version of our SLAM map. However, I believe that training the model with well-prepared, domain-specific data could yield significantly better results.
 
