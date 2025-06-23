@@ -1,3 +1,9 @@
 SlamMap2FloorPlan/RoomFormer/checkpoints
 SlamMap2FloorPlan/RoomFormer/stru3d
 SlamMap2FloorPlan/RoomFormer/s3d_floorplan_eval/montefloor_data
+autoencoder/data
+autoencoder/model_weights
+autoencoder/model_weights/epoch_52_model_weights.pth
+autoencoder/model_weights/epoch_56_model_weights.pth
+autoencoder/model_weights/epoch_500_model_weights.pth
+autoencoder/model_weights/epoch_250_model_weights.pth
